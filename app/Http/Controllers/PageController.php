@@ -9,9 +9,4 @@ class PageController extends Controller
     {
         return view('home');
     }
-    //Pagina trains
-    public function trains()
-    {
-        return view('trains');
-    }
 }
